@@ -17,4 +17,4 @@ This budget reflects a lean, early-stage build-focused team. Funds are not alloc
 | **Total**                             | **$500k**  | Stretch funding across core builders + test sprint, not salaries or fluff    |
 
 ## Summary Tagline
-> “This is not a $500k pitch to finish an idea. It’s a $500k sprint to prove a new class of robotics is ready for the field—and ready for scale.”
+> “This is not a $500k pitch to finish an idea. It’s a $500k sprint: proving a new class of robotics is ready for the field and built for scale.”
