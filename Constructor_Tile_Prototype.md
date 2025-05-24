@@ -47,3 +47,5 @@ This prototype turns **waste heat** into **real work**.
 It gives power to small devices **in places where batteries just don’t work.**
 
 And by focusing on **how energy flows between “states”**—hot, warm, cold—you’re applying physics in a way that’s **useful, efficient, and visionary.**
+
+https://www.constructortheory.org/portfolio/the-information-theoretic-foundation-of-thermodynamic-work-extraction/
