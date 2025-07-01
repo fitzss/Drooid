@@ -1,5 +1,5 @@
+All layers (AI design, printing, compute, power, compliance) live under one roof.
 
-All layers—AI design, printing, compute, power, compliance—live under one roof.  
 **Remove any layer and the loop stalls.**
 
 ---
