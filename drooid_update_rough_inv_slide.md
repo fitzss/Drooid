@@ -32,18 +32,20 @@ Daniel Kalu & Fitz Doud · July 2025
 ---
 
 
-### **Slide 3: Why Now?**
+### **Slide 3 · Why Now?**
 
-| Driver | 2025 Shift | Why It Matters |
-| ------ | ---------- | --------------- |
-| **Tactical Demand** | DoD shifting toward **attritable, scalable, multi-domain systems** | Projects like **Replicator, DIU, and AFWERX** fund swarm autonomy over single-drone platforms |
-| **Geopolitical Catalyst** | Urban warzones like Ukraine & Gaza expose gaps in ISR and low-cost robotics | Need for saturation, redundancy, and GPS-denied autonomy is now mission-critical |
-| **AI-on-Edge Breakthrough** | Jetson Orin Nano & RK3588 **< $100** | Autonomous decisions now made **onboard**, not in the cloud — immune to jamming |
-| **Micro-flight Maturity** | MEMS, lightweight batteries, and silent actuators reach swarm viability | Palm-size bots now fly **15+ minutes** and carry real payloads |
-| **AI-to-Print Loop** | Additive tools + AI CAD pipelines collapse design cycles | We go from prompt to prototype in **< 72 hours** using Newlab Detroit facilities |
-| **Newlab Advantage** | Access to $500k+ of tools: drone cage, mSLA printers, motion lab | Full-stack prototyping without capital expense |
+- **DoD is buying swarms now**  
+  Replicator, DIU sUAS, and AFWERX TACFI all fund low-cost, attritable autonomy.  
 
-> ✅ The tech stack, military demand, and prototyping infrastructure are finally aligned — **now is the time to swarm.**
+- **Edge-AI + batteries finally fit in a palm**  
+  Jetson Orin Nano / RK3588 boards **< $100** + 350 Wh/kg cells ⇒ 15 min endurance with on-board inference.  
+
+- **GPS-denied wars expose the gap**  
+  Ukraine, Gaza, and looming Indo-Pac flashpoints show the cost of losing ISR and comms.  
+
+- **Prototype loop is instant**  
+  Newlab Detroit’s printers, drone cage, and motion-lab let us go **prompt → flight test in < 72 h** with zero cap-ex.  
+
 
 
 ---
@@ -65,21 +67,16 @@ Drooid delivers modular swarms of nano-robots for hard physical jobs.
 
 ---
 
-### **Slide 5: Core Tech Stack**
+### **Slide 5 · Core Tech Stack (Prototype v0)**
 
-Drooid is vertically integrated from mission spec to swarm flight.
+| Pillar            | Ships in the first 6 months                            | Why it matters                                   |
+|-------------------|--------------------------------------------------------|--------------------------------------------------|
+| **Nano-Bots**     | 10 flyers + 10 crawlers, printed frames, COTS sensors  | Cheap, expendable, backpack-deployable           |
+| **SwarmOS Lite**  | Decentralized nav, mesh comms, hard kill-switch        | Keeps running when GPS or radio is jammed        |
+| **HiveBox**       | Laptop-size field base: compute, charger, data logger  | One plug-in hub powers & coordinates the swarm   |
+| **AI-to-Print**   | Prompt → CAD → 3-D print in **48 h**                   | Hardware iterations move at software speed       |
 
-| Layer | Description |
-| --- | --- |
-| **Swarm Hardware** | Lightweight, modular bots that fly, crawl, and swim — engineered for speed, scale, and survivability |
-| **Swarm OS** | Decentralized autonomy layer that enables fault-tolerant, GPS-free mission execution |
-| **Mesh Comms** | Peer-to-peer swarm network for resilient operation in comms-denied zones |
-| **AI-to-Print Pipeline** | GPT-CAD design → 3D print → field bench in <72 hours — ultra-fast form factor iteration |
-| **Constructor Feasibility Engine** | Filters out physically impossible tasks using counterfactual logic before missions launch |
-| **Hive Box** | Wearable field base that handles swarm computation, telemetry, and relay |
-| **Book of Nature** | Living database of swarm outcomes that improves task success with every mission run |
-
-> **From idea to swarm deployment in a week. Each layer is built for real-world failure and recovery.**
+> **Focus:** prove this minimal full stack first—then add swimmers, advanced payloads, and the Constructor engine after Series A.
 
 ---
 ### Slide 6 · Biomimetic Swarm Designs
