@@ -103,7 +103,6 @@ No factory. No freight. Just software and a printer already on base.
 
 Prompt → Forge CLI (parametric + SBOM) → Slicer → SLS Printer → Rail Snap → TPM flash + hover  
 
-```yaml
 - SBOM cryptographically signed before print  
 - Hash stored in TPM; proof travels with aircraft  
 - Works offline; no external network required  
